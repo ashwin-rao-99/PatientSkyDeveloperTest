@@ -13,7 +13,7 @@ Optional Feature: Time Slot Type Filtering: An additional feature allows filteri
 
 Overall, the solution demonstrates how to effectively parse calendar data, find available time slots, and format the output for the user. It leverages Java's libraries and features to implement the required functionality in an efficient and organized manner.
 
-## How to test the program
+## Steps to test the solution
 1. Clone the project on the local system.
 2. Open the project on Intellij IDE and add a new Run configuration by selecting the Main class.
 3. On click of Run, the program will excecute.

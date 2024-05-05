@@ -26,8 +26,7 @@ The entities are:
 -  A calendar can have many appointments, so there is one to many relationship.
 -  An appointment has one to one relationship with timeslot.
 -  A time slot has one to one relationship with timeslot type.
-
-A package **service** is added to add the logic for the solution. **CalendarService** has all methods to search and filter the available timeslots based on the input.
+-  A package **service** is added to add the logic for the solution. **CalendarService** has all methods to search and filter the available timeslots based on the input.
 
 
 ## Steps to test the solution

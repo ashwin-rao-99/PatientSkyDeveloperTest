@@ -24,8 +24,8 @@ The entities are:
 - The getters and setters are automatically generated using the @Data annotation.
 -  A calendar uniquely represents a user, there is a one to one relationship, however for the siplicity, relationship is not established between any of these entities.
 -  A calendar can have many appointments, so there is one to many relationship.
--  An appointment has one to one relationship with timeslot.
--  A time slot has one to one relationship with timeslot type.
+-  An appointment has one to one relationship with TimeSlot.
+-  A time slot has one to one relationship with timeslot TimSlotType.
 -  A package **service** is added to add the logic for the solution. **CalendarService** has all methods to search and filter the available timeslots based on the input.
 
 

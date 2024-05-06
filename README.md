@@ -20,7 +20,7 @@ The Entities are:
 3. TimeSlot
 4. TimeSlotType
    
-- All these Entites are represented with their fields in the package **model**.
+- All these Entities are represented with their fields in the package **model**.
 - The getters and setters are automatically generated using the @Data annotation.
 -  A Calendar uniquely represents a user, there is a one to one relationship, however for the simplicity, relationship is not established between any of these Entities.
 -  A Calendar can have many appointments, so there is one to many relationship.

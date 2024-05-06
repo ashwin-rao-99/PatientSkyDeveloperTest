@@ -14,19 +14,19 @@ Optional Feature: Time Slot Type Filtering: An additional feature allows filteri
 Overall, the solution demonstrates how to effectively parse calendar data, find available time slots, and format the output for the user. It leverages Java's libraries and features to implement the required functionality in an efficient and organized manner.
 
 ## Design
-The entities are: 
+The Entities are: 
 1. Calendar
 2. Appointement
 3. TimeSlot
 4. TimeSlotType
    
-- All these entites are represented with their fields in the package **model**.
+- All these Entites are represented with their fields in the package **model**.
 - The getters and setters are automatically generated using the @Data annotation.
--  A calendar uniquely represents a user, there is a one to one relationship, however for the siplicity, relationship is not established between any of these entities.
--  A calendar can have many appointments, so there is one to many relationship.
--  An appointment has one to one relationship with TimeSlot.
+-  A Calendar uniquely represents a user, there is a one to one relationship, however for the simplicity, relationship is not established between any of these Entities.
+-  A Calendar can have many appointments, so there is one to many relationship.
+-  An Appointment has one to one relationship with TimeSlot.
 -  A time slot has one to one relationship with timeslot TimSlotType.
--  A package **service** is added to add the logic for the solution. **CalendarService** has all methods to search and filter the available timeslots based on the input.
+-  A package **service** is added to add the logic for the solution. **CalendarService** has all methods to search the available timeslots based on the input.
 
 
 ## Steps to test the solution
